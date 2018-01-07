@@ -26,8 +26,12 @@ designers to specify them in advance.
 
 ## Addressing and Connecting
 
-Fabric's addresses are a series of `/` delimited protocols and parameters that 
-the client and server need to go through until connection is established.
+Fabric's addresses are a series of `/` delimited transport and stream 
+protocols that the client and server need to go through until connection 
+is established.
+
+Each part can contain `:` delimeted parameters, but the left-most item will
+need to always be the protocol or stream's identifier.
 
 Let's take for example a very simple ping-pong protocol. Peer A connects to 
 peer B, sends a `ping` message, peer B responds with `pong` and the connection 
