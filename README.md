@@ -23,13 +23,13 @@ in multiple p2p applications.
 Fabric's discovery protocol will allow finding peers for specific users 
 (identities), or even the peers that support a specific protocol.
 
-## 3. Conflict resolution data type
+## 3. [Graph based conflict resolution data type](graph-crdt.md)
 
 One of the last pieces of this p2p puzzle is how applications deal with data.  
 This includes storage, synchronation, conflict resolution, permissions, 
 authenticity, etc.
 
 A custom Conflig Resolution Data Type (CRDT) allows applications to use a 
-set of pre-defined event nodes  to create  permissioned graphs (DAGs to be 
+set of pre-defined event nodes to create permissioned graphs (DAGs to be 
 more specific) that can be shared and kept in sync with other users on the 
 network.
