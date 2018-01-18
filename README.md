@@ -1,3 +1,4 @@
+[![Waffle.io - Columns and their card count](https://badge.waffle.io/nimona/nimona.png?columns=all)](https://waffle.io/nimona/nimona?utm_source=badge)
 # Nimona
 
 Nimona is a collection of specifications and reference implementations that
